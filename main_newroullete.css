@@ -1,0 +1,693 @@
+html { box-sizing: border-box;}
+  
+.full {background-image: url('../images/european/game2.png'); background-size: cover; background-repeat: no-repeat;}
+*, *::after, *::before {
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-app-region: no-drag;}
+
+
+.round{position: absolute; margin-top: 42px; margin-left: -70px;}
+.cup_img{ height: 178px; width: 341px; transform: rotate(0deg);}
+.cup_div{position: absolute;top: 70px;left: 228px; z-index: 1;}
+.cup_div1{ margin-top: -168px;margin-left: -17px;}
+.cup_img1{ height: 125px; width: 368px; transform: rotate(5deg);}
+.a1 {transform: rotateX(45deg) rotateY(0deg) rotateZ(-314deg) translateX(0px) translateY(-210px) translateZ(-55px);} 
+.flextop{top: 364px; width: 58%;position: absolute; left: 400px;}
+.h100{ height: 100%;}
+.w100 { width: 100%;}
+.dis_flex{display: flex;}
+.pl30{padding-left: 30px;}
+.pos_rel{position: relative;}
+.w90{width: 100%;}
+.h70{height: 90px;}
+.w86{width: 86%;}
+.w8{width: 8%;}
+.box_bor{border: 1px solid #e9f3eb;}
+.pr45{padding-right: 30px;}
+.w70{width:60%}
+.h50{height: 65px;}
+.w33{width: 32%;}
+.top268{top: 183px;}
+.top280{top: 188px}
+.w12{width: 16.66%;}
+.w14{width: 100%;}
+.coinmain{top: 290px; padding-left: 40px;}
+.hco1{height: 100px;}
+.wco{width: 8%}
+.coin_css{width: 45px;height: 55px;}
+.cp{cursor: pointer;}
+.l42{ left: -18px;}
+
+.a2{transform: rotateX(35deg) rotateY(0deg) rotateZ(-319deg) translateX(315px) translateY(-225px) translateZ(-22px);}  
+.flextop2{top: 318px; width: 17.5%;position: relative; left: 566px; margin-top: -160px}
+.pl302{padding-left: 36px;}
+.w902{ width: 75%}
+.h702{ height: 38px;}
+.w82{ width: 15%;}
+.w145 { width: 175%;}
+.w81{ width: 7%;}
+.w811{ width: 12%}
+.cw12{width: 30%}
+.w146 { width: 188%;}
+.op0{ opacity: 0;} 
+
+.table_div{ position: absolute; top: -255px; left: 280px; transform: rotateZ(-2deg) translateX(-280px) translateY(-20px); z-index: -999;}
+.table_hw{width: 1670px; height: 1250px;}
+
+.a3{transform: rotateX(50deg) rotateY(0deg) rotateZ(-222deg) translateX(200px) translateY(-1120px) translateZ(-39px);  } 
+.flextop3{top: -67px;width: 26%;position: relative;left: 617px;margin-top: -34px;}
+.w1453 { width: 80%;}
+.pl303{padding-left: 30px;}
+.w903{ width: 80%}
+.h703{ height: 15px;}
+.w1463 { width: 80%;}
+.round_img{background-image: url('../images/european/rounds.png'); background-repeat: no-repeat; background-size: 100% 100%;width: 100%;height: 100%; }
+.h700{ height: 792px;}
+.w500{ width: 497px;}
+.betline_p{color: aliceblue; margin-top: 3px;}
+.gameid_p{color: aliceblue; margin-top: 0px;}
+
+.wheel1_s{height: 650px; position: absolute; z-index: -1; left: -140px; top: 20px;}
+.ball_img1{height: 30px;width: 30px;}
+.ball1_s{position: absolute; top: 105px; left: 90px; z-index: -1;}
+.h150{ width: 175px;}
+.w150{ height: 169px;}
+.frame_div {position: absolute; z-index: 99;}
+.frame_div1{position: absolute;margin-top: 355px;margin-left: 115px;overflow: hidden;}
+
+.close1{ margin-top: 35px; height: 50px;}
+.clock{position: absolute; right: 225px; margin-top: 60px;}
+.clock_div{position: absolute;margin-top: -15px;margin-left: 0px;}
+.clock_img{height: 155px; width: 163px;}
+.timer_div{margin-left: 50px;margin-top: 10px;}
+.timer_p{color: aliceblue;
+  font-size: 47px;
+  margin-top: -137px;
+}
+.history{position: absolute;right: 0; top: 10px;}
+.history_list{position: absolute;top: 44px;}
+.history_img{ height: 300px; width: 150px;}
+.rules{position: absolute; top:30px; left: 750px}
+.gamesid{position: absolute; top:10px; left: 1220px;font-size: 20px;}
+.rules_img{ height: 90px;}
+.top77{top: 77px;}
+.top180{top:180px;}
+.ml60{margin-left: 60px;}
+.ml75{ margin-left: 75px;}
+.w130{width: 130%;}
+.ml4{margin-left: 4px;}
+.ml20{margin-left: 20px;}
+.footer_main{float: left;position: absolute;left:0;right: 0;bottom: 0;background-color: dimgray; height: 115px; width: 100%;}
+.betpoint_div{position: relative; background: #18191b; height: 100%;}
+.betpoint_img{float: left;position: absolute; top:-30%;height: 100%; width: 18%;}
+.bet_total{position: absolute;margin-top: -15px;margin-left: 135px;}
+.bet_totalp{color: aliceblue; font-size: 22px;}
+.winner_div{position: absolute;margin-top: 39px;margin-left: 135px;}
+.winner_p{color: chartreuse;font-size: 22px;}
+.score{position: absolute;margin-top: 85px;margin-left: 72px;}
+.score_p{font-size: 19px;}
+.lastwin{position: absolute;margin-top: 88px;margin-left: 320px;}
+.bet_msg{position: absolute;margin-top: 85px;margin-left: 560px; width: 70%;}
+.clear_bet{float: left;position: absolute; top: -15%; height: 75%; width: 130px;margin-left: 515px;}
+.clear_p{position: absolute;color: aliceblue;left: 540px;top: 60px;line-height: 20px;letter-spacing: 1px;text-align: center;font-size: 12px;}
+.double_spin{float: left;position: absolute; top: -15%; margin-left: 682px; height: 75%;width: 130px;}
+.double_p{position: absolute;color: aliceblue;left: 710px;top: 60px;line-height: 20px;letter-spacing: 1px;text-align: center;font-size: 12px;}
+.rebet{float: right;position: absolute; top: -15%;height: 75%; width: 130px;right: 618px;}
+.rebet_p {float: right;position: absolute;color: aliceblue;right: 655px ;top: 60px;line-height: 20px;letter-spacing: 1px;text-align: center;font-size: 12px;}
+.footer_extra{position: absolute;float: right; right: 0; top: -5%; height: 75%;}
+.footer_balance{position: absolute; bottom: 0; height: 30%; width: 100%;}
+.toolt{display: none;position: absolute;height: 100%; width: 100%;margin-top: 220px;margin-left: 260px;}
+.trans_r{ transform: rotateZ(4deg);}
+
+
+.wheelcan{margin-right: -122px; margin-top: -573px}
+#wrapD3Cube { width: 503px; height: 302px;}
+#wrapD3Cube1 {width: 270px;height: 193px; margin: auto;}
+.wrapD3Cube { width: 503px; height: 302px; margin: auto;}
+.ball_img{height: 27px;width: 27px;}
+.circle_img1 { position: absolute; left: 0; right: 0; margin: auto; height: 430px;width: auto; transform: rotate(45deg);}
+.circle_img2 { position: absolute; left: 0; right: 0; margin: auto; height: 212px;width: auto;}
+.top0{top:103px;}
+.top220{top:-135px}
+.top210{top:-136px}
+.top33{top:55px}
+
+.rotate2{ -webkit-animation-name: cubeRotation; -webkit-animation-duration: 6000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear; }
+/* .rotate2{ -webkit-animation: cubeRotation 5s infinite;   animation: cubeRotation 5s infinite; } */
+.rotate3{ -webkit-animation-name: cubeRotation1; -webkit-animation-duration: 6000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+
+.D3Cube {
+  top: 0;
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  margin: auto;
+  position: relative;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  /* -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; */
+ 
+ 
+}
+
+#D3Cube1 {
+  top: 0;
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  margin: auto;
+  position: relative;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  /* -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; */
+
+}
+
+/* Standard syntax */
+@keyframes cubeRotation {
+0%    {	transform: rotateX(-30deg) rotateY(0deg) rotateZ(0deg);	}
+10%   {	transform: rotateX(-30deg) rotateY(120deg) rotateZ(0deg);	}
+20%   {	transform: rotateX(-30deg) rotateY(240deg) rotateZ(0deg);	}
+30%   {	transform: rotateX(-30deg) rotateY(360deg) rotateZ(0deg);	}
+40%   {	transform: rotateX(-30deg) rotateY(480deg) rotateZ(0deg);	}
+50%   {	transform: rotateX(-30deg) rotateY(600deg) rotateZ(0deg);	}
+60%   {	transform: rotateX(-30deg) rotateY(720deg) rotateZ(0deg);	}
+70%   {	transform: rotateX(-30deg) rotateY(840deg) rotateZ(0deg);	}
+80%   {	transform: rotateX(-30deg) rotateY(960deg) rotateZ(0deg);	}
+90%   {	transform: rotateX(-30deg) rotateY(1080deg) rotateZ(0deg);	}
+100%  {transform: rotateX(-30deg) rotateY(1200deg) rotateZ(0deg);	}
+
+}
+/* Standard syntax */
+@keyframes cubeRotation1 {
+0%    {	transform: rotateX(-30deg) rotateY(1200deg) rotateZ(0deg);	}
+10%   {	transform: rotateX(-30deg) rotateY(1080deg) rotateZ(0deg);	}
+20%   {	transform: rotateX(-30deg) rotateY(960deg) rotateZ(0deg);	}
+30%   {	transform: rotateX(-30deg) rotateY(840deg) rotateZ(0deg);	}
+40%   {	transform: rotateX(-30deg) rotateY(720deg) rotateZ(0deg);	}
+50%   {	transform: rotateX(-30deg) rotateY(600deg) rotateZ(0deg);	}
+60%   {	transform: rotateX(-30deg) rotateY(480deg) rotateZ(0deg);	}
+70%   {	transform: rotateX(-30deg) rotateY(360deg) rotateZ(0deg);	}
+80%   {	transform: rotateX(-30deg) rotateY(240deg) rotateZ(0deg);	}
+90%   {	transform: rotateX(-30deg) rotateY(120deg) rotateZ(0deg);	}
+100%  {transform: rotateX(-30deg) rotateY(0deg) rotateZ(0deg);	}
+
+}
+.side1 {
+  transform: rotateX(90deg) translateX(0px) translateY(0px) translateZ(56px);
+  -moz-transform: rotateX(90deg)translateX(0px) translateY(0px) translateZ(56px);
+  -webkit-transform: rotateX(90deg) translateX(0px) translateY(0px) translateZ(56px);	
+}
+.side_new {
+  transform: rotateX(60deg) translateX(0px) translateY(0px) translateZ(56px);
+  -moz-transform: rotateX(60deg)translateX(0px) translateY(0px) translateZ(56px);
+  -webkit-transform: rotateX(60deg)translateX(0px) translateY(0px) translateZ(56px);	
+}
+.side2 {
+  transform: rotateX(90deg)  translateX(0px) translateY(0px) translateZ(56px);
+  -moz-transform: rotateX(90deg) translateX(0px) translateY(0px) translateZ(56px);
+  -webkit-transform: rotateX(90deg) translateX(0px) translateY(0px) translateZ(56px);	
+}
+.side2_new {
+  transform: rotateX(60deg) translateX(0px) translateY(0px) translateZ(56px);
+  -moz-transform: rotateX(60deg)  translateX(0px) translateY(0px) translateZ(56px);
+  -webkit-transform: rotateX(60deg) translateX(0px) translateY(0px) translateZ(56px);	
+}
+
+.coin0{background-image: url('../images/european/coin/0.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; }
+.coin1{background-image: url('../images/european/coin/1.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin2{background-image: url('../images/european/coin/2.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin3{background-image: url('../images/european/coin/3.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin4{background-image: url('../images/european/coin/4.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;} 
+.coin5{background-image: url('../images/european/coin/5.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin6{background-image: url('../images/european/coin/6.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin7{background-image: url('../images/european/coin/7.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin8{background-image: url('../images/european/coin/8.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin9{background-image: url('../images/european/coin/9.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin10{background-image: url('../images/european/coin/10.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin11{background-image: url('../images/european/coin/11.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin12{background-image: url('../images/european/coin/12.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin13{background-image: url('../images/european/coin/13.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin14{background-image: url('../images/european/coin/14.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin15{background-image: url('../images/european/coin/15.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin16{background-image: url('../images/european/coin/16.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin17{background-image: url('../images/european/coin/17.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin18{background-image: url('../images/european/coin/18.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin19{background-image: url('../images/european/coin/19.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin20{background-image: url('../images/european/coin/20.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin21{background-image: url('../images/european/coin/21.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin22{background-image: url('../images/european/coin/22.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin23{background-image: url('../images/european/coin/23.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin24{background-image: url('../images/european/coin/24.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin25{background-image: url('../images/european/coin/25.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin26{background-image: url('../images/european/coin/26.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin27{background-image: url('../images/european/coin/27.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin28{background-image: url('../images/european/coin/28.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin29{background-image: url('../images/european/coin/29.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin30{background-image: url('../images/european/coin/30.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin31{background-image: url('../images/european/coin/31.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin32{background-image: url('../images/european/coin/32.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin33{background-image: url('../images/european/coin/33.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin34{background-image: url('../images/european/coin/34.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; }
+.coin35{background-image: url('../images/european/coin/35.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin36{background-image: url('../images/european/coin/36.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+
+
+/* .coin3:hover{
+background-image: url('../images/images.png');
+}
+.z1:hover .coin1,.z2:hover .coin2,.z3:hover .coin3,.z4:hover .coin4,.z5:hover .coin5,.z6:hover .coin6,.z7:hover .coin7,.z8:hover .coin8,.z9:hover .coin9,.z10:hover .coin10,
+.z11:hover .coin11,.z12:hover .coin12,.z13:hover .coin13,.z14:hover .coin14,.z15:hover .coin15,.z16:hover .coin16,.z17:hover .coin17,.z18:hover .coin18,.z19:hover .coin19,
+.z20:hover .coin20,.z21:hover .coin21,.z22:hover .coin22,.z23:hover .coin23,.z24:hover .coin24,.z25:hover .coin25,.z26:hover .coin26,.z27:hover .coin27,.z28:hover .coin28,
+.z29:hover .coin29,.z30:hover .coin30,.z31:hover .coin31,.z32:hover .coin32,.z33:hover .coin33,.z34:hover .coin34,.z35:hover .coin35,.z36:hover .coin36{
+background:rgba(255,255,255,0.5);
+} 
+
+.coin3 {
+opacity: 0.7;
+}
+.coin3:hover{
+opacity: 1;
+} 
+.coin3:hover,.coin6:hover {-webkit-filter: brightness(200%); } */
+
+
+
+
+
+.coin1::after,.coin2::after,.coin3::after,.coin4::after,.coin5::after,.coin6::after,.coin7::after,.coin8::after,.coin9::after,.coin10::after,
+.coin11::after,.coin12::after,.coin13::after,.coin14::after,.coin15::after,.coin16::after,.coin17::after,.coin18::after,.coin19::after,
+.coin19::after,.coin20::after,.coin21::after,.coin22::after,.coin23::after,.coin24::after,.coin25::after,.coin26::after,.coin27::after,
+.coin28::after,.coin29::after,.coin30::after,.coin31::after,.coin32::after,.coin33::after,.coin34::after,.coin35::after,.coin36::after{
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+outline: 2px solid rgb(235, 243, 235);
+}
+
+.coin1:hover::after,.coin2:hover::after,.coin3:hover::after,.coin4:hover::after,.coin5:hover::after,.coin6:hover::after,.coin7:hover::after,
+.coin8:hover::after,.coin9:hover::after,.coin10:hover::after,.coin11:hover::after,.coin12:hover::after,.coin13:hover::after,.coin14:hover::after,
+.coin15:hover::after,.coin16:hover::after,.coin17:hover::after,.coin18:hover::after,.coin19:hover::after,.coin20:hover::after,.coin21:hover::after,
+.coin22:hover::after,.coin23:hover::after,.coin24:hover::after,.coin25:hover::after,.coin26:hover::after,.coin27:hover::after,.coin28:hover::after,
+.coin29:hover::after,.coin30:hover::after,.coin31:hover::after,.coin32:hover::after,.coin33:hover::after,.coin34:hover::after,.coin35:hover::after,.coin36:hover::after
+{
+outline: 2px solid white;
+outline-offset: -4px;
+
+}   
+
+.coin2to1{background-image: url('../images/european/coin/2to1.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;  }
+.coin2to12{background-image: url('../images/european/coin/2to1.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; }
+
+.coin1st12{background-image: url('../images/european/1st.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; }
+.coin2nd12{background-image: url('../images/european/2st.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin3rd12{background-image: url('../images/european/3st.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; }
+
+.coin1to18{background-image: url('../images/european/1to18.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coinodd{background-image: url('../images/european/odd.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coinred{background-image: url('../images/european/red.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coinblack{background-image: url('../images/european/black.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coineven{background-image: url('../images/european/even.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+.coin19to36{background-image: url('../images/european/19to36.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;}
+
+
+.track0{background-image: url('../images/european/coin/0.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px; }
+.track1{background-image: url('../images/european/coin/1.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;margin-top: -8px; }
+.track2{background-image: url('../images/european/coin/2.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track3{background-image: url('../images/european/coin/3.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track4{background-image: url('../images/european/coin/4.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;} 
+.track5{background-image: url('../images/european/coin/5.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;margin-top: -8px;}
+.track6{background-image: url('../images/european/coin/6.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track7{background-image: url('../images/european/coin/7.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;margin-top: -8px;} 
+.track8{background-image: url('../images/european/coin/8.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px; }
+.track9{background-image: url('../images/european/coin/9.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;margin-top: -8px;}
+.track10{background-image: url('../images/european/coin/10.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track11{background-image: url('../images/european/coin/11.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track12{background-image: url('../images/european/coin/12.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track13{background-image: url('../images/european/coin/13.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track14{background-image: url('../images/european/coin/14.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;margin-top: -8px;}
+.track15{background-image: url('../images/european/coin/15.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track16{background-image: url('../images/european/coin/16.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track17{background-image: url('../images/european/coin/17.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track18{background-image: url('../images/european/coin/18.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;margin-top: -8px;}
+.track19{background-image: url('../images/european/coin/19.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track20{background-image: url('../images/european/coin/20.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;margin-top: -8px;}
+.track21{background-image: url('../images/european/coin/21.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track22{background-image: url('../images/european/coin/22.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;margin-top: -8px;}
+.track23{background-image: url('../images/european/coin/23.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;margin-top: -8px;}
+.track24{background-image: url('../images/european/coin/24.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;margin-top: -8px;}
+.track25{background-image: url('../images/european/coin/25.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track26{background-image: url('../images/european/coin/26.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track27{background-image: url('../images/european/coin/27.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track28{background-image: url('../images/european/coin/28.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track29{background-image: url('../images/european/coin/29.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track30{background-image: url('../images/european/coin/30.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;margin-top: -8px;}
+.track31{background-image: url('../images/european/coin/31.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%;margin-top: -8px;}
+.track32{background-image: url('../images/european/coin/32.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track33{background-image: url('../images/european/coin/33.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track34{background-image: url('../images/european/coin/34.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track35{background-image: url('../images/european/coin/35.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+.track36{background-image: url('../images/european/coin/36.png'); background-repeat: no-repeat; background-size: 100% 100%;cursor: pointer; width: 100%;height: 100%; margin-top: -8px;}
+
+.wt10{width: 60px;border-radius: 45px 0 0 45px;}
+.wt5{ width: 7%;}
+.wt24{ width: 7%;}
+.wt16{ width: 6.5%;}
+.wt33{ width: 6%;}
+.wt1{ width: 5.5%;}
+.wt20{width: 7%;}
+.wt14{width: 6%;}
+.wt31{width: 8%;}
+.wt9{width: 6%;}
+.wt22{width: 7%;}
+.wt18{width: 6.5%;}
+.wt29{width: 7.2%;}
+.wt7{width: 7.5%;}
+.wt28{width: 7.8%;}
+.wt12{width: 8%;}
+.wt35{width: 10%;}
+.wt3{width: 13%;border-radius: 0 45px 45px 0;}
+
+.ml0{ margin-left: 0px;}
+
+.wt23 {width: 8%;border-left: none;}
+.wt26 {width: 12%;border-left: none;}
+.wt150 {width: 35%;}
+.wt151 {width: 34%;}
+.wt152 {width: 48%;}
+.wt153 {width: 15%;}
+
+.hf150{font-size: 20px;color: aliceblue;text-align: center; margin-top: 8px}
+.hf151{font-size: 20px;color: aliceblue;text-align: center; margin-top: 8px}
+.hf152{font-size: 20px;color: aliceblue;text-align: center; margin-top: 8px}
+.hf153{font-size: 20px;color: aliceblue;text-align: center; margin-top: 8px}
+
+.wt8{width: 60px;border-radius: 45px 0 0 45px;}
+
+.wt30{ width: 7%;}
+.wt11{ width: 7%;}
+.wt36{ width: 7%;}
+.wt13{ width: 7%;}
+.wt27{width: 5.5%;}
+.wt6{width: 9.5%;}
+.wt34{width: 9%;}
+.wt17{width: 9.5%;}
+.wt25{width: 6.2%;}
+.wt2{width: 6.4%;}
+.wt21{width: 7%;}
+.wt4{width: 6.8%;}
+.wt19{width: 8%;}
+.wt15{width: 7.2%;}
+.wt32{width: 10%;}
+.wt0{width: 18%;border-radius: 0 45px 45px 0;}
+
+
+
+.sel_no {cursor: pointer; font-size: 22px; position: absolute; margin: auto; left: 9px; right: 0; text-align: center; top: 19px; background-image: url(../images/european/bet.png); background-size: 52px 50px; background-repeat: no-repeat;height: 62px; background-position: top; line-height: 48px; color: rgba(39, 11, 165, 0.836);transform: rotate(-52deg);}
+
+.sel_no1  {cursor: pointer;font-size: 17px; position: absolute;margin: auto; left: -26px;right: 0;text-align: center;top: 10px;background-image: url(../images/european/bet.png);background-size: 100% 100%;background-repeat: no-repeat;height: 62px; background-position: top;line-height: 59px;color: forestgreen;transform: rotate(-52deg) }
+
+
+.sel_no_other{cursor: pointer; font-size: 31px; position: absolute;margin: auto;left: 0;right: 0;text-align: center;top:-4px;background-image: url(../images/european/bet.png);background-size: 80px 60px;background-repeat: no-repeat;height: 66px;background-position: top;line-height: 58px;color: rgba(39, 11, 165, 0.836);transform: rotate(-52deg);}
+.label_all {cursor: pointer;position: absolute;width: 16px;z-index: 999999999;height: 65%;top: 10px;}
+
+.lab_all {cursor: pointer;position: absolute;width: 6%; z-index: 999999999;height: 24%;top: 60px;}
+
+
+.lab2_all  {cursor: pointer;position: absolute;width: 2%; z-index: 999999999;height: 24%;top: 75px;}
+.lab2_new  {cursor: pointer;position: absolute;width: 2%; z-index: 999999999;height: 24%;top: 75px;}
+.sel_no11 {cursor: pointer;font-size: 13px;position: absolute;margin: auto; left: 0;right: 0;text-align: center;top: -6px; left: -30px;background-image: url(../images/european/bet.png);background-size: 100% 100%;background-repeat: no-repeat;background-position: top;line-height: 30px;width: 55px;color: forestgreen;transform: rotate(-52deg) scale(1.2)}
+
+.lab1_all {cursor: pointer;position: absolute;width: 2%; z-index: 999999999;height: 24%;top: 167px;}
+.lab1_new {cursor: pointer;position: absolute;width: 2%; z-index: 999999999;height: 24%;top: 167px;}
+.sel_no12 {cursor: pointer;font-size: 13px;position: absolute;margin: auto; left: 0;right: 0;text-align: center;top: -6px; left: -30px;background-image: url(../images/european/bet.png);background-size: 100% 100%;background-repeat: no-repeat;background-position: top;line-height: 30px;color: forestgreen;width: 55px; transform: rotate(-52deg) scale(1.2);}
+
+.l4{left: 6%;}
+.l7{left: 12.8%;}
+.l14{left: 19.6%;}
+.l22{left: 27.2%;}
+.l30{left: 34%;}
+.l37{left: 41.7%;}
+.l45{left: 48.4%;}
+.l53{left: 55.1%;}
+.l60{left: 62.9%;}
+.l68{left: 69.5%;}
+.l76{left: 77.2%;}
+.l83{left: 84.8%;}
+.l86{left: 91.4%;}
+.l88{left: 91.9%;}
+
+.lb1{left: 9.6%;}
+.lb5{left: 13%;}
+.lb9{left: 16.6%;}
+.lb12{left: 19.9%;}
+.lb16{left: 24%;}
+.lb20{left: 27.5%;}
+.lb24{left: 31%;}
+.lb27{left: 34.6%;}
+.lb32{left: 38.6%;}
+.lb35{left: 42%;}
+.lb39{left: 45.3%;}
+.lb43{left: 49.2%;}
+.lb47{left: 52.5%;}
+.lb51{left: 56%;}
+.lb55{left: 57.7%;}
+.lb59{left: 63.7%;}
+.lb62{left: 67%;}
+.lb66{left: 71%;}
+.lb70{left: 74.1%;}
+.lb74{left: 78%;}
+.lb78{left: 81.8%;}
+.lb81{left: 85%;}
+.lb85{left: 88.5%;}
+.lb88{left: 88.5%;}
+.lb90{ left: 91.4%;}
+
+
+.lb185{ left: 88.5%}
+.lb177{ left: 81.8%}
+.lb171{ left: 74.1%}
+.lb163{ left: 67.2%;}
+.lb156{ left: 59.7%;}
+.lb149{ left: 53% }
+.lb142{ left: 45%}
+.lb134{ left: 38.6%}
+.lb127{ left: 31.2%}
+.lb120{ left: 24.1%}
+.lb113{ left: 17.2% }
+.lb106{ left: 9.9%}
+
+.lb281{ left: 84.8%}
+.lb274{left: 78%}
+.lb267{ left: 71%}
+.lb259{ left: 63.6%}
+.lb252{left: 56.4%}
+.lb245{ left: 49%}
+.lb238{left: 42%}
+.lb231{left: 35.2%}
+.lb224{left: 28%}
+.lb217{ left: 20.5%}
+.lb210{ left: 13.4%}
+
+.allhover{
+outline: 2px solid white;
+outline-offset: -6px;
+}
+.nohover{
+outline: 0px solid white;
+outline-offset: -4px;
+} 
+
+.close_h{
+transition: all .2s ease-in-out
+}
+.close_h:hover{
+transform: scale(1.1);
+border-radius: 95%; box-shadow: 0px 0px 9px 4px rgb(241, 232, 230);
+} 
+
+.coin_h
+{
+transition: all .2s ease-in-out
+}
+.coin_h:hover{
+transform: scale(1.1);
+border-radius: 95%; box-shadow: 0px 0px 9px 4px rgb(212, 226, 13);
+}
+
+
+.addrotate {
+-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+from {
+    -webkit-transform: rotate(0deg);
+}
+to {
+    -webkit-transform: rotate(359deg);
+}
+}
+
+svg {
+-webkit-transform: rotate(-90deg);
+ transform: rotate(-90deg);
+}
+
+.circle_animation {
+stroke-dasharray: 440; /* this value is the pixel circumference of the circle */
+stroke-dashoffset: 440;
+transition: all 1s linear;
+}
+
+.overlay {
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.7);
+transition: opacity 500ms;
+visibility: hidden;
+opacity: 0;
+}
+.overlay:target {
+visibility: visible;
+opacity: 1;
+}
+
+.popup {
+margin: 70px auto;
+padding: 20px;
+background: white;
+border-radius: 5px;
+width: 50%;
+position: relative;
+transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+margin-top: 0;
+color: #333;
+font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+position: absolute;
+top: 20px;
+right: 30px;
+transition: all 200ms;
+font-size: 30px;
+font-weight: bold;
+text-decoration: none;
+color: #333;
+}
+.popup .close:hover {
+color: #06D85F;
+}
+.popup .content {
+max-height: 30%;
+overflow: auto;
+}
+
+table.customTable {
+width: 100%;
+background-color: #FFFFFF;
+border-collapse: collapse;
+border-width: 2px;
+border-color: #7EA8F8;
+border-style: solid;
+color: #000000;
+}
+
+table.customTable td, table.customTable th {
+border-width: 2px;
+border-color: #7EA8F8;
+border-style: solid;
+padding: 5px;
+}
+
+table.customTable thead {
+background-color: #7EA8F8;
+}
+
+.loadingDiv{ position:absolute;top:0px;right:0px;width:100%;height:100%;display:none;background-color:#666;background-image:url('../images/loader.gif');background-repeat:no-repeat;background-position:center;z-index:10000000;opacity: 0.4;filter: alpha(opacity=40); /* For IE8 and earlier */}
+.f_l{float: left;}
+.mt10{margin-top: 10px;}
+.pl15p{padding-left: 15px;}
+.w130p{width: 130px;}
+.w90p{width: 90px;}
+.selectBox{margin-top: 20px;height: 25px;margin-right: 20px}
+.pr15p{padding-right: 15px;}
+.bb0{border-bottom: 1px solid #000;}
+.h35p{height: 35px;}
+.lh35{line-height: 35px}
+.tc{text-align: center; }
+.bg_c7{background: #c73f53}
+.color_f{color: #fff;}
+.w16{width: 16.66%;}
+.fw_b{font-weight: bold; }
+.br0{border-right: 1px solid #000;}
+.h30p{height: 30px;}
+.lh30{line-height: 30px}
+
+/* .column {
+  margin: 15px 15px 0;
+  padding: 0;
+} */
+.hover02 img{
+  width:50px;
+  height: auto;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover02:hover img {
+  width: 60px;
+}
+.mtm12{margin-top: -12px;}
+button {
+  background-color: red;
+}
+button:hover {
+  background-color: greenyellow;
+}
+
+/* tooltrip */
+.aTooltip{
+  background: #333;
+  color: #fff;
+  font-family: sans-serif;
+  position: top;
+}
+
+.ui-tooltip {
+  white-space: pre-line;
+  background-color: #18191b;
+}
+.ui-tooltip-content::after, .ui-tooltip-content::before {  
+content: "";  
+position: absolute;  
+border-style: solid;  
+display: block;  
+left: 90px;  
+}  
+.ui-tooltip-content::before {  
+bottom: -10px;  
+border-color: #AAA transparent;  
+border-width: 10px 10px 0;  
+}  
+.ui-tooltip-content::after {  
+bottom: -7px;  
+border-color: white transparent;  
+border-width: 10px 10px 0;  
+}  
+
+
+
+
+
